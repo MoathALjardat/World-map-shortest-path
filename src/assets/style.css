@@ -1,0 +1,38 @@
+.button {
+    -fx-background-color:#282828;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-border-color :#9e881c;
+    -fx-border-radius :20;
+    -fx-border-width :2;
+    -fx-font-family :Times New Roman;
+}
+.radio-button .radio {
+    -fx-border-width: 2px;
+    -fx-border-color: #000;
+    -fx-background-color: #4364a2;
+    -fx-background-image: null;
+    -fx-border-radius: 15px;
+    -fx-padding: 1px;
+}
+.radio-button .radio:selected {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.radio-button -radio:armed {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.radio-button -radio:determinate {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.radio-button -radio:indeterminate {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.radio-button .dot {
+    -fx-background-radius: 10px;
+
+    -fx-padding: 2px;
+}
